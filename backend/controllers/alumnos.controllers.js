@@ -1,9 +1,9 @@
-import { Tabla } from "../models/alumnos.models.js";
+import { Tabla } from "../models/alumnos.models.js"
 
-Tabla.create({
+Tabla.create(
      nombre:"Coffee",
      edad: 20,
      materia: "Todas"
-})
+)
 
-export const test = () => console.log("Llamando el controlador en app")
+export const  = () console.log("Llamando el controlador en app")
